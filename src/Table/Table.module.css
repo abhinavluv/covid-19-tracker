@@ -1,0 +1,23 @@
+.Table {
+	margin-top: 20px;
+	overflow-y: scroll;
+	height: 400px;
+	color: #6a5d5d;
+	margin-bottom: 1.2rem;
+	/* background: white; */
+	border: 1px solid #c2bfbf;
+	border-radius: 3px;
+}
+
+.Table tr {
+	display: flex;
+	justify-content: space-between;
+}
+
+.Table td {
+	padding: 0.5rem;
+}
+
+.Table tr:nth-of-type(odd) {
+	background-color: #f3f2f8;
+}
